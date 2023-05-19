@@ -14,7 +14,7 @@ N = st.sidebar.number_input("Nitrogen",min_value=0.0,step=10.0)
 P = st.sidebar.number_input("Potassium",0.0,step=10.0)
 K = st.sidebar.number_input("Sodium",min_value=0.0,step=10.0)
 temperature = st.sidebar.number_input("Temperature *C",min_value=0.0,max_value=50.0,step=10.0)
-humidity = st.sidebar.number_input("Humidity %",min_value=0.0,max_value=100,step=10.0)
+humidity = st.sidebar.number_input("Humidity %",min_value=0.0,max_value=100.0,step=10.0)
 ph = st.sidebar.number_input("PH",min_value=0.00,max_value=14.0,step=10.0)
 rainfall = st.sidebar.number_input("Rainfall (CM)",min_value=0.0,max_value = 100.0,step=10.0)
 
