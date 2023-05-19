@@ -3,5 +3,6 @@ numpy
 matplotlib
 seaborn
 plotly
+scikit-learn
 streamlit == 1.22.0
 warnings
