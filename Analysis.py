@@ -83,8 +83,4 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 data["label"] = le.fit_transform(data["label"])
 
-st.write("Correlation Matrix.")
-fig, ax = plt.subplots()
-sns.heatmap(data.corr(),annot=True,ax=ax)
-st.pyplot(fig)
-st.divider()
+
