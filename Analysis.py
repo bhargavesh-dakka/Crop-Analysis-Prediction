@@ -76,6 +76,8 @@ for column in range(len(col)):
         # fig.set_size_inches(1,1)
         ax.set_xlabel(col[column], c="r") 
         st.pyplot(fig)
-
+from streamlit_extras.switch_page_button import switch_page
+if st.button("Predict ?"):
+    switch_page("prediction")
 
 
