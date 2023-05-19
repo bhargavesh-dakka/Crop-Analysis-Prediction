@@ -3,5 +3,5 @@ numpy
 matplotlib
 seaborn
 plotly
-streamlit
+streamlit == 1.22.0
 warnings
