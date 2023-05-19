@@ -78,9 +78,4 @@ for column in range(len(col)):
         st.pyplot(fig)
 
 
-#encoding
-from sklearn.preprocessing import LabelEncoder
-le = LabelEncoder()
-data["label"] = le.fit_transform(data["label"])
-
 
